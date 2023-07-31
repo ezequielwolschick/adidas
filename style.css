@@ -24,7 +24,8 @@
 
 body{
     background: white;
-    height: 4000px;
+    height: auto;
+    width: auto;
 }
 
 ::-webkit-scrollbar{
@@ -133,7 +134,7 @@ a:hover{
     transition: all 0.3s ease-in-out;
 }
 
-@media (max-width:768px){
+@media (max-width:500px){
 
     .nav-icons{
         display: none;
@@ -175,6 +176,10 @@ a:hover{
         left: 0;
     }
 
+    .historias{
+        display: flex;
+    }
+
 }
 
 .entre-para-o-clube{
@@ -192,10 +197,24 @@ a:hover{
     background-size: cover;
 }
 
-.container{
-    height: 269px;
+.container1{
+    height: 398px;
     width: 398px;
     padding-top: 40px;
+    padding-left: 20px;
+}
+
+.container2{
+    height: 398px;
+    width: 398px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.container3{
+    height: 398px;
+    width: 398px;
+    padding-top: 120px;
     padding-left: 20px;
 }
 
@@ -244,6 +263,23 @@ a:hover{
     color: white;
     font-family: DIN;
     font-size: 18px;
+}
+
+.banner-button{
+    width: 208px;
+    text-align: center;
+    padding: 16px;
+    border: none;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+.banner-button>h1{
+    font-size: 14px;
+}
+
+span{
+    display: none;
 }
 
 .dia-dos-pais{
